@@ -1,0 +1,2 @@
+content    notifyonslack    chrome/content/
+overlay chrome://messenger/content/messenger.xul    chrome://notifyonslack/content/content.xul

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0"?>
+<overlay id="notifyonslack" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">  
+    <script type="application/javascript" src="chrome://notifyonslack/content/overlay.js"/>
+</overlay>
