@@ -1,7 +1,8 @@
 ﻿var newMailListener = {
     msgAdded: function(aMsgHdr) {
         if( !aMsgHdr.isRead )
-		if(aMsgHdr.mime2DecodedAuthor !== '情報メディア学科演習準備室 <assist@mlab.im.dendai.ac.jp>') {
+		if(aMsgHdr.mime2DecodedAuthor !== '情報メディア学科演習準備室 <assist@mlab.im.dendai.ac.jp>'
+			&& aMsgHdr.mime2DecodedAuthor !== 'SEPM_Server@mlab.im.dendai.ac.jp') {
 			sendNotify();
 		}
     }
